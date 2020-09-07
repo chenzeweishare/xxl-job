@@ -41,6 +41,7 @@ public class SampleXxlJob {
         XxlJobLogger.log("XXL-JOB, Hello World.");
         for (int i = 0; i < 5; i++) {
             XxlJobLogger.log("beat at:" + i);
+            System.err.println("beat at:" + i);
             logger.info("beat at:" + i);
             TimeUnit.SECONDS.sleep(2);
         }
