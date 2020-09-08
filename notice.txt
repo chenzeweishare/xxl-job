@@ -1,0 +1,4 @@
+1. 启动依赖mysql, 需要修改对应密码
+2. 需要创建1个库xxl_job, 再执行/doc/db/tables_xxl_job.sql
+3. 先启动xxl-job-admin,  访问http://127.0.0.1:8080/xxl-job-admin/jobinfo打开后台页面
+   再启动xxl-job-executor-samples下的xxl-job-executor-sample-springboot即可
